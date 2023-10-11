@@ -77,7 +77,7 @@ y
 [.] Using: github.acme.co
 
 Organization: DevOps
-Owner: None
+Owner: John.Doe
 Org Url: https://github.acme.co/DevOps
 Repos:
  |
