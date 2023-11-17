@@ -1,13 +1,13 @@
-# Git Miner
+# Ent Git Miner
 GitMiner will query Github useful source code data at the Enterprise, Organization or Repository level.
 
 # Usage
 
-The `git_miner.py` is called as a CLI app. It can be run with your local python.
+The `entgitminer.py` is called as a CLI app. It can be run with your local python.
 All output gets saved to the logs/ dir in the working directory
 
 ```
-usage: git_miner.py [-h] --hostname HOSTNAME [--org ORG_NAME] [--repo REPO_NAME] [-a]
+usage: entgitminer.py [-h] --hostname HOSTNAME [--org ORG_NAME] [--repo REPO_NAME] [-a]
 
 optional arguments:
   -h, --help           show this help message and exit
@@ -45,28 +45,28 @@ Get a single repo from an org:
 Local run:
 
 ```
-$ python git_miner.py --hostname acme --org DevOps --repo GitMiner
+$ python entgitminer.py --hostname acme --org DevOps --repo GitMiner
 ```
 
 
 Get all repos for a single org:
 
 ```
-$ python git_miner.py --hostname acme --org DevOps
+$ python entgitminer.py --hostname acme --org DevOps
 ```
 
 Get all repos for all orgs:
 
 ```
-$ python git_miner.py --hostname acme --all
+$ python entgitminer.py --hostname acme --all
 ```
 
 # Sample Output
 
 ```
 **************************************************
-               GITMINER:
-A tool to mine useful data from Github
+               ENTGITMINER:
+A tool to mine useful data from Github Enterprise
 **************************************************
 
 
