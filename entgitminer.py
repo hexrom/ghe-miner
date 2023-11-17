@@ -25,8 +25,8 @@ LOG_DIR = WORKING_DIR + '/logs/'
 BEGIN = time.time()
 BANNER = """
 **************************************************
-               GITMINER:
-A tool to mine useful data from Github
+               ENTGITMINER:
+A tool to mine useful data from Github Enterprise
 **************************************************
 """
 # Creates logs dir if it doesn't exist
