@@ -25,7 +25,7 @@ LOG_DIR = WORKING_DIR + '/logs/'
 BEGIN = time.time()
 BANNER = """
 **************************************************
-               ENTGITMINER:
+               GITMINER:
 A tool to mine useful data from Github Enterprise
 **************************************************
 """
