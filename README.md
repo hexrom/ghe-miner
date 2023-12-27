@@ -1,4 +1,4 @@
-# GIT Miner
+# GHE Miner
 GitMiner will query Github useful source code data at the Enterprise, Organization or Repository level.
 
 # Usage
