@@ -1,4 +1,6 @@
-# GIT Miner
+![Logo](img/ghe-miner.png)
+
+# GHE Miner
 GitMiner will query Github useful source code data at the Enterprise, Organization or Repository level.
 
 # Usage
@@ -112,8 +114,8 @@ Repos:
    | * src
  |
  |- Repo Name: example-test
- 
- 
+
+
  ...
 
 
