@@ -1,4 +1,4 @@
-<img src="img/gitminer.png" width="896" height="512" alt="Logo">
+<img src="img/gitminer.png" width="640" height="320" alt="Logo">
 
 # GHE Miner
 GitMiner will query Github useful source code data at the Enterprise, Organization or Repository level.
