@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # coding=utf-8
-__version__ = "1.0"
+
 import argparse
 import datetime
 import json
@@ -9,7 +9,6 @@ import os
 import sys
 import time
 import csv
-
 
 from github import Github, GithubException
 from tabulate import tabulate
