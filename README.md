@@ -17,6 +17,9 @@ optional arguments:
   --org ORG_NAME       Organization Name(ex: DevOps)
   --repo REPO_NAME     Repository Name(ex: GitMiner)
   -a, --all            To run in all orgs and repos, set this flag.
+  -n, --noprompt       Do not prompt.
+  -c, --csv            Write CSV data to file.
+  -j, --json           Write JSON data to file.
 ```
 
 # Requirements
