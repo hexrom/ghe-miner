@@ -1,4 +1,4 @@
-<img src="img/ghe-miner.png" alt="Logo" width="900" height="255">
+<img src="img/gitminer.png" width="640" height="320" alt="Logo">
 
 # GHE Miner
 GitMiner will query Github useful source code data at the Enterprise, Organization or Repository level.
@@ -50,20 +50,19 @@ Get a single repo from an org:
 Local run:
 
 ```
-$ python gitminer.py --hostname acme --org DevOps --repo GitMiner
+$ python3 gitminer.py --hostname acme --org DevOps --repo ghe-miner
 ```
-
 
 Get all repos for a single org:
 
 ```
-$ python gitminer.py --hostname acme --org DevOps
+$ python3 gitminer.py --hostname acme --org DevOps
 ```
 
 Get all repos for all orgs:
 
 ```
-$ python gitminer.py --hostname acme --all
+$ python3 gitminer.py --hostname acme --all
 ```
 
 # Sample Output
