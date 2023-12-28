@@ -50,20 +50,19 @@ Get a single repo from an org:
 Local run:
 
 ```
-$ python gitminer.py --hostname acme --org DevOps --repo GitMiner
+$ python3 gitminer.py --hostname acme --org DevOps --repo ghe-miner
 ```
-
 
 Get all repos for a single org:
 
 ```
-$ python gitminer.py --hostname acme --org DevOps
+$ python3 gitminer.py --hostname acme --org DevOps
 ```
 
 Get all repos for all orgs:
 
 ```
-$ python gitminer.py --hostname acme --all
+$ python3 gitminer.py --hostname acme --all
 ```
 
 # Sample Output
