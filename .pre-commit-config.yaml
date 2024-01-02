@@ -8,3 +8,8 @@ repos:
     rev: 22.10.0
     hooks:
     -   id: black
+- repo: https://github.com/pryorda/dockerfilelint-precommit-hooks
+  rev: v0.1.0
+  hooks:
+  - id: dockerfilelint
+    stages: [commit]
